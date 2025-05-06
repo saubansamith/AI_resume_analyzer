@@ -1,0 +1,7 @@
+streamlit
+streamlit-tags
+pymysql
+plotly
+nltk
+pymupdf
+google-generativeai
