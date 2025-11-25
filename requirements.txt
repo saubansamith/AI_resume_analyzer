@@ -6,3 +6,5 @@ nltk
 pymupdf
 selenium
 google-generativeai
+chromium-browser
+chromium-chromedriver
