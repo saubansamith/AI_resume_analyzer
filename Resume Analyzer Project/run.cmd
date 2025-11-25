@@ -1,1 +1,0 @@
-streamlit run App.py
