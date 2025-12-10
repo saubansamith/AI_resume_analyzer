@@ -5,7 +5,7 @@ import time
 
 def get_links(profession):
     options = ChromeOptions()
-    options.add_argument("--headless")  # Run Chrome in headless mode
+    # options.add_argument("--headless")  # Run Chrome in headless mode
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
     # Add user-agent to avoid detection
@@ -33,4 +33,5 @@ def get_links(profession):
 
     win.close()
     return jobs
+
 
