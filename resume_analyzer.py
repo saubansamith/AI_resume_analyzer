@@ -2,7 +2,7 @@ import google.generativeai as genai
 import fitz
 
 def export_resume_details(path):
-    genai.configure(api_key="AIzaSyBR2I1_un7z86XDBRAtHjeNDYMViK4UfQA")
+    genai.configure(api_key="AIzaSyBTe-Eutg0CZSHAJKgM53kabpVkDQIlX_4")
     
     model = genai.GenerativeModel(model_name="gemini-2.5-flash")
     doc = fitz.open(path)
@@ -21,4 +21,5 @@ def export_resume_details(path):
         code='\n'.join(code.split('\n')[1:-1])
     with open('resume_analyzed.py','w', encoding="utf-8") as file:
         file.write(code)
+
     return len(doc)
